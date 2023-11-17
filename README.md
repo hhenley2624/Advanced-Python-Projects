@@ -111,7 +111,7 @@
 
 -   The final output includes a user-friendly display of earthquake details and a CSV file containing a comprehensive dataset for further analysis.   
 
-Skills Demonstrated:
+### Skills Demonstrated:
 
 - API integration and data retrieval using the `requests` library.
 
