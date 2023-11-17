@@ -81,7 +81,7 @@ while count < len((lat)):
         f'in {county[count]}, {state[count]}.')
     count +=1
 
-# Create the headers and organize their data by row for a CSV file
+# Create a nested list where each sublist is a column and organize the data
 csv_data = [timestamps, mag, lat, long, county, state]
 column_data = map(list, zip(*csv_data))
 
