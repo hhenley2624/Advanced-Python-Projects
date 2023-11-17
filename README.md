@@ -105,7 +105,7 @@
 
 - Implemented error handling to manage potential connection issues with the APIs, ensuring a smooth user experience.
 
-## Results and Output:
+## Results:
 
 - The program successfully fetches real-time earthquake data, processes it, and enriches it with additional geospatial details.
 
