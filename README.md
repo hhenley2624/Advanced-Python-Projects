@@ -83,29 +83,29 @@
 
 - Utilized the `requests` library to fetch real-time earthquake data from the USGS API in GeoJSON format.
 
-## Data Processing:
+### Data Processing:
 
 - Extracted relevant earthquake information such as magnitude, occurrence time, and geographic coordinates from the API response.
 
 - Implemented functions to convert timestamps, adjust for time zones, and enhance location details.
 
-## Geocoding:
+### Geocoding:
 
 - Integrated the OpenCage Geocoding API to obtain additional information about the earthquake locations, including county and state.
 
-## CSV File Generation:
+### CSV File Generation:
 
 - Created a CSV file containing the processed earthquake data for easy storage, sharing, and further analysis.
 
-## User-Friendly Output:
+### User-Friendly Output:
 
 - Developed a user-friendly output that displays earthquake details, including magnitude, occurrence time, and precise location information (latitude, longitude, county, state).
 
-## Error Handling:
+### Error Handling:
 
 - Implemented error handling to manage potential connection issues with the APIs, ensuring a smooth user experience.
 
-## Results:
+### Results:
 
 - The program successfully fetches real-time earthquake data, processes it, and enriches it with additional geospatial details.
 
