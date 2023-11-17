@@ -18,7 +18,7 @@ def earthquake_data():
     if response:
         data = json.loads(response.content)
 
-        """Drill down features in the XML response"""
+        """Drill down to features in the XML response"""
         features = data["features"]
 
         """loop through the drill down and extract the data"""
@@ -29,7 +29,7 @@ def earthquake_data():
             time = properties["time"]
             occured_time.append(time)
 
-            """Drill down to gemoetry from the features and extract the data"""
+            """Drill down to gemoetry from features and extract the data"""
             geometry = feature["geometry"]
             coordinates = geometry["coordinates"]
             latitude = coordinates[1]
