@@ -1,4 +1,8 @@
-import requests, json, xmltodict, csv, datetime
+import csv 
+import datetime
+import json
+import requests
+import xmltodict
 
 # Create an array to store each piece of data
 mag = []
@@ -77,7 +81,7 @@ while count < len((lat)):
         f'in {county[count]}, {state[count]}.')
     count +=1
 
-# Create the headers and organize ther data by row for a CSV file
+# Create the headers and organize their data by row for a CSV file
 csv_data = [timestamps, mag, lat, long, county, state]
 column_data = map(list, zip(*csv_data))
 

@@ -1,5 +1,16 @@
 # import all the ML libraries needed to include nltk for stopwords and warnings to ignore possible warnings
-import csv, joblib, matplotlib.pyplot as plt, nltk, pandas as pd, requests, sklearn.neighbors, sklearn.neural_network, sklearn.metrics, sklearn.model_selection, sklearn.tree, sklearn.feature_extraction.text, warnings
+import joblib 
+import matplotlib.pyplot as plt 
+import nltk 
+import pandas as pd
+import sklearn.feature_extraction.text
+import sklearn.metrics
+import sklearn.model_selection
+import sklearn.neighbors 
+import sklearn.neural_network
+import sklearn.tree
+import warnings
+
 nltk.download("stopwords", quiet=True)
 from nltk.corpus import stopwords
 warnings.filterwarnings("ignore")
